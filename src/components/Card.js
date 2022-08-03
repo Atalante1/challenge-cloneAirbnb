@@ -2,9 +2,11 @@ import React from 'react';
 import Data from '../data/data.json'
 import Typography from '@mui/material/Typography';
 import { FaRegHeart } from 'react-icons/fa';
+
 import {
   fixedIcon,
   carouselImage,
+  
 
 } from 'themes/commonStyles';
 import Box from '@mui/material/Box';
@@ -24,6 +26,7 @@ function Card() {
                   position: 'relative',
                 }}
               >
+                 
                 <Box sx={fixedIcon}>
                   <FaRegHeart size={24} color="#fff" />
                 </Box>
